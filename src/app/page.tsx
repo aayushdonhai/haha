@@ -88,11 +88,10 @@ export default function Home() {
 
       {isLoaded && (
         <div
-          className={`min-h-screen transition-colors duration-1000 overflow-x-hidden ${
-            isTransformed
+          className={`min-h-screen transition-colors duration-1000 overflow-x-hidden ${isTransformed
               ? "bg-gradient-to-b from-[#FDFBF7] via-[#FFF9F9] to-[#FDEDEC]"
               : "bg-[#FDFBF7]"
-          }`}
+            }`}
         >
           {/* Handcrafted texture and wiggling doodles */}
           <PaperTexture />
@@ -116,7 +115,7 @@ export default function Home() {
                   Hello, My Universe
                 </h1>
                 <p className="gsap-hero-desc mt-6 text-zinc-600 text-base leading-relaxed font-rounded">
-                  Even though thousands of miles separate us and a screen is all we have right now, you are my entire universe. This is a special scrapbook for you, as we count down the days until we finally meet in person this September.
+                  Even though hundreds of miles separate us and a screen is all we have right now, you are my entire universe. This is a special scrapbook for you, as we count down the days until we finally meet in person this September.
                 </p>
 
                 {/* Decorative heart doodles */}

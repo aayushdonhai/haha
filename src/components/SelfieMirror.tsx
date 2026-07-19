@@ -80,10 +80,10 @@ export default function SelfieMirror() {
               <Camera size={36} style={{ filter: "url(#crayon-wobble)" }} />
             </div>
             <h3 className="font-handwritten text-3xl font-bold text-[#2C3E50] mb-2">
-              A Special Mirror for You
+              A Special Something that usually lightens my day..
             </h3>
             <p className="text-zinc-600 text-sm mb-6 leading-relaxed">
-              This section needs front camera permission to show you something really pretty. Don't worry, your feed is completely private and processed locally on your device.
+              Wanna see somethingg beautifullll??
             </p>
             <div className="flex gap-4">
               <button
@@ -91,13 +91,13 @@ export default function SelfieMirror() {
                 className="bg-[#AED6F1] hover:bg-[#85C1E9] text-[#2C3E50] font-semibold text-sm px-6 py-2.5 rounded-full shadow-sm hover:scale-105 active:scale-95 transition-all"
                 style={{ filter: "url(#crayon-wobble)" }}
               >
-                Open Camera
+                OPEN
               </button>
               <button
                 onClick={() => setPermissionState("denied")}
                 className="bg-[#F2F4F4] hover:bg-[#E5E8E8] text-zinc-500 font-semibold text-sm px-5 py-2.5 rounded-full transition-all"
               >
-                No, Thanks
+                NO, THANKS
               </button>
             </div>
           </motion.div>
