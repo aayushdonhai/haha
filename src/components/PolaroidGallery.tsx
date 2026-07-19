@@ -20,7 +20,7 @@ const PHOTOS: PolaroidPhoto[] = [
   {
     id: 1,
     src: "/photos/photo1.jpg",
-    caption: "My favorite view in the world...",
+    caption: "The selfies you send that make me starstruck...",
     rotation: "-rotate-2",
     tapeColor: "bg-[#FDEDEC]/70",
     tapeRotation: "-rotate-6",
@@ -30,7 +30,7 @@ const PHOTOS: PolaroidPhoto[] = [
   {
     id: 2,
     src: "/photos/photo2.jpg",
-    caption: "The smile that brightens my darkest days",
+    caption: "Late night calls where hours feel like minutes",
     rotation: "rotate-3",
     tapeColor: "bg-[#EBF5FB]/70",
     tapeRotation: "rotate-3",
@@ -40,7 +40,7 @@ const PHOTOS: PolaroidPhoto[] = [
   {
     id: 3,
     src: "/photos/photo3.jpg",
-    caption: "Every moment with you is a treasure",
+    caption: "Your sweet voice notes that I play on repeat",
     rotation: "-rotate-3",
     tapeColor: "bg-[#FCF3CF]/70",
     tapeRotation: "-rotate-2",
@@ -50,7 +50,7 @@ const PHOTOS: PolaroidPhoto[] = [
   {
     id: 4,
     src: "/photos/photo4.jpg",
-    caption: "Holding you makes everything else vanish",
+    caption: "A screenshot of your laugh that I keep saved",
     rotation: "rotate-2",
     tapeColor: "bg-[#E8F8F5]/70",
     tapeRotation: "rotate-6",
@@ -60,7 +60,7 @@ const PHOTOS: PolaroidPhoto[] = [
   {
     id: 5,
     src: "/photos/photo5.jpg",
-    caption: "That silly, precious, perfect laugh",
+    caption: "Counting down the days to September...",
     rotation: "-rotate-1",
     tapeColor: "bg-[#F4ECF7]/70",
     tapeRotation: "-rotate-4",
@@ -70,7 +70,7 @@ const PHOTOS: PolaroidPhoto[] = [
   {
     id: 6,
     src: "/photos/photo6.jpg",
-    caption: "I love you in every single timeline",
+    caption: "Even miles apart, you have my entire heart",
     rotation: "rotate-3",
     tapeColor: "bg-[#FDEDEC]/70",
     tapeRotation: "rotate-2",
@@ -80,7 +80,7 @@ const PHOTOS: PolaroidPhoto[] = [
   {
     id: 7,
     src: "/photos/photo7.jpg",
-    caption: "Always choosing you. Every single day.",
+    caption: "Can't wait to finally hold your hand for real",
     rotation: "-rotate-2",
     tapeColor: "bg-[#EBF5FB]/70",
     tapeRotation: "-rotate-5",

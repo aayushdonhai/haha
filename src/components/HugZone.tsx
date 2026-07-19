@@ -85,10 +85,10 @@ export default function HugZone() {
         <div className="absolute -top-2 right-8 text-xl">✨</div>
 
         <h3 className="font-handwritten text-3xl sm:text-4xl font-bold text-[#78281F] mb-3">
-          Need a Hug?
+          A Virtual Warm Hug
         </h3>
         <p className="text-zinc-600 text-sm mb-8 leading-relaxed font-rounded">
-          If you feel ready and want to feel close, tap this button for a virtual warm squeeze.
+          Since I can't hold you in person yet, tap this button for a virtual warm squeeze. Counting down to doing this for real in September!
         </p>
 
         {/* Squishy Hug Button */}

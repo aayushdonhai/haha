@@ -15,8 +15,8 @@ interface PromiseFlower {
 const PROMISES: PromiseFlower[] = [
   {
     id: 1,
-    name: "Rose of Patience",
-    promise: "I promise to listen to you, always, with my whole heart and endless patience.",
+    name: "Rose of Presence",
+    promise: "I promise to be fully present, focused, and responsive during our calls, always prioritizing you.",
     colorPetal: "#FDEDEC",
     colorCenter: "#E74C3C",
     svgType: "rose",
@@ -24,15 +24,15 @@ const PROMISES: PromiseFlower[] = [
   {
     id: 2,
     name: "Sun of Action",
-    promise: "I promise to match my words with consistent, daily, loving actions.",
+    promise: "I promise that when we meet in September, my actions in person will match my words through the screen.",
     colorPetal: "#FCF3CF",
     colorCenter: "#F39C12",
     svgType: "sunflower",
   },
   {
     id: 3,
-    name: "Lily of Safety",
-    promise: "I promise to always make you feel secure, valued, and safe in my arms.",
+    name: "Lily of Reassurance",
+    promise: "I promise to give you constant reassurance and remind you of your worth, even from afar.",
     colorPetal: "#EBF5FB",
     colorCenter: "#3498DB",
     svgType: "lily",
@@ -40,7 +40,7 @@ const PROMISES: PromiseFlower[] = [
   {
     id: 4,
     name: "Tulip of Honesty",
-    promise: "I promise to communicate with transparency and share my vulnerabilities.",
+    promise: "I promise to communicate with transparency and share my thoughts so distance never brings doubt.",
     colorPetal: "#F4ECF7",
     colorCenter: "#8E44AD",
     svgType: "tulip",
@@ -48,15 +48,15 @@ const PROMISES: PromiseFlower[] = [
   {
     id: 5,
     name: "Daisy of Joy",
-    promise: "I promise to protect your smile and bring lighthearted joy into your days.",
+    promise: "I promise to protect your smile and keep our daily chats full of laughter and playfulness.",
     colorPetal: "#E8F8F5",
     colorCenter: "#16A085",
     svgType: "daisy",
   },
   {
     id: 6,
-    name: "Bell of Forever",
-    promise: "I promise to choose you, every single day, through every season of life.",
+    name: "Bell of September",
+    promise: "I promise to count down the days and make our very first real-life meeting this September unforgettable.",
     colorPetal: "#EAECEE",
     colorCenter: "#2C3E50",
     svgType: "bluebell",

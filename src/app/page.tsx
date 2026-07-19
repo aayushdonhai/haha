@@ -116,7 +116,7 @@ export default function Home() {
                   Hello, My Universe
                 </h1>
                 <p className="gsap-hero-desc mt-6 text-zinc-600 text-base leading-relaxed font-rounded">
-                  This page was hand-drawn and crafted just for you. Because you deserve more than simple words can say, and I wanted to make something that shows how much I care.
+                  Even though thousands of miles separate us and a screen is all we have right now, you are my entire universe. This is a special scrapbook for you, as we count down the days until we finally meet in person this September.
                 </p>
 
                 {/* Decorative heart doodles */}
@@ -142,10 +142,10 @@ export default function Home() {
             <section className="w-full py-16 bg-[#FDFBF7]/40 border-t border-dashed border-zinc-200">
               <div className="text-center mb-8 px-4">
                 <h2 className="font-handwritten text-4xl sm:text-5xl font-bold text-[#2C3E50] mb-2">
-                  Our Sweetest Memories
+                  Our Screen-to-Screen Moments
                 </h2>
                 <p className="text-sm text-zinc-500 font-rounded">
-                  Taped photos from our storybook...
+                  Even though we've never met in person, these are the moments I hold closest...
                 </p>
               </div>
               <PolaroidGallery />

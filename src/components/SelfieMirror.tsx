@@ -13,7 +13,7 @@ export default function SelfieMirror() {
   const texts = [
     "Look who's here...",
     "The prettiest girl in my universe. ❤️",
-    "I hope this smile never fades because of me.",
+    "I can't wait to see this beautiful smile in person this September.",
   ];
 
   const startCamera = async () => {

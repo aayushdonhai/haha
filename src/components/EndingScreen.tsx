@@ -157,10 +157,10 @@ export default function EndingScreen({ onTransform, isTransformed }: EndingScree
               <div className="absolute bottom-4 right-4 text-[#F1C40F] animate-pulse">✦</div>
 
               <h4 className="font-handwritten text-4xl sm:text-5xl font-bold text-[#E74C3C] leading-snug mb-4">
-                To New Beginnings
+                To September & Beyond
               </h4>
               <p className="font-handwritten text-3xl font-semibold text-[#78281F] leading-relaxed">
-                "I'll keep choosing you, and I'll keep choosing to be better, every single day."
+                "I'll keep choosing you, and I'll keep choosing to be better, every single day, until I can hold you in person and forever after."
               </p>
             </motion.div>
 

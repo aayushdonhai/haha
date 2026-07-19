@@ -9,7 +9,7 @@ export default function Chapter1Intro() {
 
   const greeting = "Hi Love...";
   const bodyText =
-    "Welcome to this little digital scrapbook. I wanted to make something special just for you, to tell a story and share what is inside my heart. Please scroll down, open the memories, and read the promises I hold for us.";
+    "Welcome to this little digital scrapbook. Since we are miles apart and I can't look into your eyes or hold your hand yet, I wanted to build this special space just for you. It's a place to share what's inside my heart, celebrate the calls we share, and look forward to this September when we finally meet. Please scroll down, check out the memories, and see the promises I hold for us.";
 
   // Splits string into characters for typewriter effect
   const characters = Array.from(greeting);

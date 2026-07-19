@@ -90,8 +90,8 @@ export default function RainyApology({ onRainActive }: RainyApologyProps) {
 
   const sentences = [
     "I know I hurt you.",
-    "I know I made you feel unimportant.",
-    "I know my actions didn't match how much I love you.",
+    "I know the distance makes everything feel harder, and I made you feel unimportant.",
+    "I know my actions didn't match how much I love you, even through a screen.",
     "I'm sorry.",
     "I'm truly sorry.",
   ];
