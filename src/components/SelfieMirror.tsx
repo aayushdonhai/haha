@@ -17,15 +17,33 @@ export default function SelfieMirror() {
   ];
 
   const startCamera = async () => {
+    // Guard against unsupported browsers or insecure contexts
+    if (typeof navigator === "undefined" || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      console.warn("Camera API is not supported on this browser/environment.");
+      setPermissionState("denied");
+      return;
+    }
+
     try {
       if (streamRef.current) {
         streamRef.current.getTracks().forEach((track) => track.stop());
       }
 
-      const stream = await navigator.mediaDevices.getUserMedia({
-        video: { facingMode: "user", width: { ideal: 480 }, height: { ideal: 480 } },
-        audio: false,
-      });
+      let stream: MediaStream;
+      try {
+        // Attempt front camera request with simple constraints
+        stream = await navigator.mediaDevices.getUserMedia({
+          video: { facingMode: "user" },
+          audio: false,
+        });
+      } catch (innerErr) {
+        console.warn("facingMode user failed, trying default video source", innerErr);
+        // Fallback to any available video source
+        stream = await navigator.mediaDevices.getUserMedia({
+          video: true,
+          audio: false,
+        });
+      }
 
       streamRef.current = stream;
       if (videoRef.current) {
