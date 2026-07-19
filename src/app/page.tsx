@@ -11,7 +11,6 @@ import MusicPlayer from "@/components/MusicPlayer";
 import PageLoader from "@/components/PageLoader";
 import Chapter1Intro from "@/components/Chapter1Intro";
 import PolaroidGallery from "@/components/PolaroidGallery";
-import SelfieMirror from "@/components/SelfieMirror";
 import RainyApology from "@/components/RainyApology";
 import GrowthPlant from "@/components/GrowthPlant";
 import ReasonsGrid from "@/components/ReasonsGrid";
@@ -150,10 +149,7 @@ export default function Home() {
               <PolaroidGallery />
             </section>
 
-            {/* CAMERA SECTION: Look Who's Here */}
-            <section className="w-full py-16 border-t border-dashed border-zinc-200">
-              <SelfieMirror />
-            </section>
+
 
             {/* CHAPTER 3: Apology and Rain */}
             <section className="w-full">
